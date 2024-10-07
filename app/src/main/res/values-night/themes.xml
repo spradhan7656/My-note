@@ -3,6 +3,5 @@
     <style name="Base.Theme.MyNoteMVVM" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your dark theme here. -->
         <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
-        <item name="android:statusBarColor" >#000</item>
     </style>
 </resources>

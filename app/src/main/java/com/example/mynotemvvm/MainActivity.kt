@@ -45,7 +45,7 @@ class MainActivity : AppCompatActivity(),NotesAdapter.NoteitemClickListener,Popu
         super.onCreate(savedInstanceState)
         binder=ActivityMainBinding.inflate(layoutInflater)
         setContentView(binder.root)
-
+        enableEdgeToEdge()
         // This is for initialization of ui
         InitUI()
         val repository=(application as NoteApplication).notesRepository

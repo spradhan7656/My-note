@@ -26,7 +26,7 @@ class AddNote : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         bindign=ActivityAddNoteBinding.inflate(layoutInflater)
         setContentView(bindign.root)
-
+        enableEdgeToEdge()
         try {
             oldNote=intent.getSerializableExtra("currnent_note") as com.example.mynotemvvm.models.Note
             bindign.etTitle.setText(oldNote.title)
